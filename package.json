@@ -1,0 +1,20 @@
+{
+  "name": "channel",
+  "version": "1.0.0",
+  "description": "A Firebase channel to realize some updates to application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Firebase",
+    "Channel"
+  ],
+  "author": "Dário Ribeiro de Lima",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "firebase-admin": "^7.3.0"
+  }
+}
